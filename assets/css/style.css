@@ -53,6 +53,22 @@ h1, h2, h3, h4, h5 {
   background-position: center;
 }
 
+.jumbotron {
+  padding: 0.5rem 2rem 1rem 2rem;
+}
+
+.jumbotron-dark {
+  color: rgba(255,255,255,.5);
+}
+
+/*-- Index / About me --*/
+.profilepic {
+  height: 200px;
+  width: 200px;
+  border: 1px solid #191C23;
+}
+
+
 /*-- Footer --*/
 .footer {
   position: absolute;
@@ -88,10 +104,13 @@ h1, h2, h3, h4, h5 {
   }
 
   .navbar-dark .navbar-nav .nav-link {
-      color: #ffffff;
-      margin-bottom: 0.5rem;
+      color: rgba(255,255,255,.5);
       font-size: 1.3rem;
       padding-left: 1rem;
+  }
+
+  .navbar-nav > li:last-child {
+    margin-bottom: 0.5rem;
   }
 
 }
