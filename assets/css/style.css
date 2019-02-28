@@ -10,7 +10,8 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: Georgia, 'Times New Roman'
+  font-family: Georgia, 'Times New Roman';
+  font-size: 2em;
 }
 
 /*-- Navbar --*/
@@ -31,6 +32,10 @@ h1, h2, h3, h4, h5 {
   color: #ffffff;
   text-decoration: none;
   background-color: #6F777D;
+}
+
+.navbar-name:active {
+  background-color: #343a40;
 }
 
 .custom-toggler.navbar-toggler{
@@ -80,6 +85,10 @@ h1, h2, h3, h4, h5 {
   border-radius: 0;
 }
 
+.row {
+  margin-right: 0;
+}
+
 /*-- Index / About me --*/
 .profilepic {
   height: 200px;
@@ -87,14 +96,70 @@ h1, h2, h3, h4, h5 {
   border: 1px solid #191C23;
 }
 
+div.hr {
+  margin-top: 3rem;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 3px solid #BB0A1E;
+  text-align: center;
+  height: 10px;
+  line-height: 0px;
+}
+
+.hr-title {
+  background-color: #343a40;
+  padding: 0 2rem 0 2rem;
+  position: relative;
+  top: -1.3rem;
+  font-size: 2em;
+}
+
+.icon {
+  font-size: 4.5rem;
+  text-align: center;
+  color: rgba(255,255,255,.5);
+  margin-top: 1rem;
+}
+
+.icon:hover {
+  color: rgba(187, 10, 31, 0.9);
+}
+
+.icon:active {
+  color: rgba(92, 6, 16, 0.9);
+}
+
+.icon-title {
+  font-family: 'Arial', "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1rem;
+  display: block;
+  padding-top: 0.5rem;
+}
+
+/*-- Portfolio --*/
+
+/*-- Contact Page --*/
+
+.form-control {
+  border-radius: 0;
+  background-color: rgba(255,255,255,.9);
+}
+
+.btn-send {
+  background-color: #BB0A1E;
+  color: rgba(255,255,255,.9);
+  border-radius: 0;
+}
+
 
 /*-- Footer --*/
 .footer {
+  display: block;
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 70px;
-  line-height: 70px;
+  line-height: 50px;
   background-color: #343a40;
   border-top: 8px solid #BB0A1E;
   text-align: center;
@@ -103,6 +168,7 @@ h1, h2, h3, h4, h5 {
 
 .multi-border {
   position: absolute;
+  left: 0;
   bottom: 0;
   height: 70px;
   width: 100%;
@@ -153,7 +219,7 @@ h1, h2, h3, h4, h5 {
   
 }
 @media screen and (max-width: 576px) {
-  
+
 }
 
 /*
