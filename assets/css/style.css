@@ -161,6 +161,15 @@ div.hr {
   text-align: center;
 }
 
+.portfolio-link {
+  text-decoration: none;
+}
+
+.portfolio-link:hover .card-title-bg {
+  text-decoration: none;
+  background-color: rgba(111, 119, 125, 0.8);
+}
+
 /*-- Contact Page --*/
 
 .form-control {
