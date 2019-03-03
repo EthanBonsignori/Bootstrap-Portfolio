@@ -95,6 +95,18 @@ h1, h2, h3, h4, h5 {
   margin-left: 0;
 }
 
+.row-index-bottom {
+  height: 20%;
+}
+
+.row-top {
+  height: 20%;
+}
+
+.row-bottom {
+  height: 20%;
+}
+
 /*-- Index / About me --*/
 .profilepic {
   height: 200px;
@@ -149,13 +161,18 @@ h1, h2, h3, h4, h5 {
   border-radius: 0;
 }
 
+.portfolio-card {
+  margin: 1rem;
+  padding: 0;
+}
+
 .card-img {
   border-radius: 0;
 }
 
 .card-title {
   color: rgba(255, 255, 255, 0.9);
-  margin: 1rem 0 1rem 0;
+  margin: 1rem 0;
 }
 
 .card-title-bg {
@@ -235,9 +252,6 @@ h1, h2, h3, h4, h5 {
 
 /*-- Media Queries --*/
 @media screen and (max-width: 992px) {
- /* .navbar-nav > li > a::after {
-    content: '';
-  } */
 
   .divider {
     display: none;
@@ -260,29 +274,46 @@ h1, h2, h3, h4, h5 {
   }
 
   .card-title {
-    font-size: 20px;
+    font-size: 1.5rem;
   }
 
   .card-title-bg {
     bottom: 5px;
-  }
-  
+  }  
 }
+
 @media screen and (max-width: 768px) {
 
   .card-title {
-    font-size: 16px;
+    font-size: 2rem;
   }
 
   .card-title-bg {
-    bottom: 2px;
+    bottom: 1rem;
+  }
+ 
+  .row-top {
+    height: 10%;
+  }
+  .row-bottom {
+    height: 40%;
   }
   
 }
+
 @media screen and (max-width: 576px) {
   
+  .row-index-bottom {
+    height: 5%;
+  }
+
+  .row-bottom{
+    height: 50%;
+  }
+
   .card-title {
-    font-size: 12px;
+    font-size: 2.5rem;
+    margin: 2rem 0;
   }
 
 }
