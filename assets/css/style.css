@@ -95,10 +95,6 @@ h1, h2, h3, h4, h5 {
   margin-left: 0;
 }
 
-.row-index-bottom {
-  height: 20%;
-}
-
 .row-top {
   height: 20%;
 }
@@ -303,14 +299,10 @@ h1, h2, h3, h4, h5 {
 
 @media screen and (max-width: 576px) {
   
-  .row-index-bottom {
-    height: 5%;
-  }
-
   .row-bottom{
     height: 50%;
   }
-
+  
   .card-title {
     font-size: 2.5rem;
     margin: 2rem 0;
